@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Gate from './Gate';
+import MediaCard from './MediaCard';
+import Room from './Room';
+//import React,{useState} from 'react';
 
 function App() {
+  // const state = useState(true);
+  // console.log(state);
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <Room/>
+    <Gate isOpen={true}/>
+    <MediaCard title="Your Turn" body="Render the MediaCard with the ReactDOM.render call, and pass in the necessary props. Can you pass a JSX element as a prop value? (hint: wrap it in single braces). Try bolding some parts of the body text without changing the implementation of MediaCard." imageUrl="https://daveceddia.com/images/complete-react-tutorial-2020.png" />
+
     </div>
   );
 }
