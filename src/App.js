@@ -13,7 +13,7 @@ function App() {
     <div>
 
       <Room/>
-    <Gate isOpen={true}/>
+      <Gate isOpen={true}/>
     <MediaCard title="Your Turn" body="Render the MediaCard with the ReactDOM.render call, and pass in the necessary props. Can you pass a JSX element as a prop value? (hint: wrap it in single braces). Try bolding some parts of the body text without changing the implementation of MediaCard." imageUrl="https://daveceddia.com/images/complete-react-tutorial-2020.png" />
 
     </div>
